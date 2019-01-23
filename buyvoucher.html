@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	<meta charset="utf-8" />
+	<title><?=$title ?></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta charset utf="8">
+	<link rel="stylesheet" href="css/insertcoin.css" media="screen">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/animate.min.css" rel="stylesheet">
+	<link href="css/toastr.min.css" rel="stylesheet">
+	<link href="css/style.min.css" rel="stylesheet">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/apps.min.js"></script>		
+	<style>
+	body {
+    background-color: #3686BB;
+	}
+	</style>
+	</head>
+	<body class='insertcoin'>
+	<div class="vertical-form">
+	<div style="margin:0;padding:0;display:inline"></div>
+	<legend>
+	<img class="logo" src="images/insertcoin.jpg" width="320px" /> <!--Banner Logo.png-->
+	</legend>
+    <!--END Toast-->
+	<!--Toast-->
+    <div align="center">
+	<p>VOUCHER AMOUNT :
+	<span id="tamount">0.00 <br>	</p> 
+	</p> 
+	<div class="progress progress-rounded progress-lg progress-striped active">
+	<div id="progressBar" class="progress-bar progress-bar-danger"></div> 
+	</div>
+	<div id="progress-msg" class="text-center text-white" style="margin-top:-45px;">	</div> 
+	<div style="clear: both; height:60px;"></div>
+	<div id="transcoins">		
+	</div>
+	</div>           
+	<a href="<?= $done ?>"><input name="submit" type="submit" value="Done" style="background: #000000;" /> </a>
+	<div class='insertcoinfooter'>
+	<p>© 2018 <strong><?=$title ?></strong> All Rights Reserved</p>
+	</div>
+	</div>
+    <script src="js/jquery-migrate-1.1.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.slimscroll.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/soundjs.min.js"></script>
+    <script type="text/javascript" src="js/preloadjs.min.js"></script>
+    <script src="js/toastr.min.js"></script>
+      <!--//footer-->
+	</body>
+</html>
